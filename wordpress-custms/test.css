@@ -1,0 +1,221 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/** 
+*   [ TEST.css ] 
+*   -----------------
+*   2AM Theme 
+*   Custom CSS Here!
+**/
+
+body 
+{
+  
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 1rem !important;
+  padding-bottom: 3.5rem !important;
+}
+
+header 
+{
+  padding-top: 4rem !important;
+  width: 100%;
+}
+
+a 
+{
+  text-decoration: none !important;
+}
+
+.btn-primary
+{
+  color: #fdfdda !important;
+  background-color: #fa6400;
+  border-color: #fa6400;
+}
+
+.mt-50
+{
+  margin-top: 50px !important;
+}
+.mt-60
+{
+  margin-top: 60px !important;
+}
+.mt-120
+{
+  margin-top: 120px !important;
+}
+
+.g-recaptcha
+{
+  padding-top: 5px !important;
+  border: none !important;
+}
+
+
+
+/* 
+*******************
+Main - Container 
+Sticky-Footer
+*******************
+*/
+/* Main Container */
+main 
+{
+  padding-top: 80px !important;
+}
+main > .container 
+{
+  padding: 100px 10px 0 !important;
+}
+main > .container-fluid 
+{
+  padding: 100px 35px 0;
+}
+
+
+/* 
+*******************
+Footer
+*******************
+*/
+footer 
+{
+  padding: 0 15px;
+}
+footer p a 
+{
+  color: #2E2E2E;
+  text-decoration: none;
+}
+footer p a:hover 
+{
+  color:#3E3E3E;
+  text-decoration: none;
+}
+
+
+/* 
+*******************
+Section: Comments
+*******************
+*/
+.am-comments
+{
+  margin-bottom: 80px;
+}
+/* Comments Reply-Link Fix */
+.comment-reply-link 
+{
+  text-decoration: none;
+}
+/* Comment-Text */
+.am-comment-txt p 
+{
+  font-size: 18px !important;
+}
+/* Comment-Text */
+.am-comment-stats p 
+{
+  font-size: 14px !important;
+}
+/* Comment-Avatar IMG */
+.am-avatar-comments img
+{
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid transparent !important;
+    border-top-color: rgb(222, 226, 230);
+    border-right-color: rgb(222, 226, 230);
+    border-bottom-color: rgb(222, 226, 230);
+    border-left-color: rgb(222, 226, 230);
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* 
+*******************
+2AM Customs
+*******************
+*/
+/* Frontpage Logo */
+.zweiam-cover-logo
+{
+  width: 23% !important;
+  height: auto !important;
+}
+
+/* Blog-Card (Width/Height) */
+.am-post-card
+{
+  min-width: 320px !important;
+  min-height: auto !important;
+  max-width: 960px !important;
+  max-height: auto !important;
+}
+
+/* Blog-Card-Image */
+.am-blogcard-img
+{
+  width: 100% !important;
+  height: 320px !important;
+}
+
+
+/* Badges (link-color) */
+.badge a 
+{
+  color: #fdfdda;
+}
+.badge a:hover 
+{
+  color: #fdfdda;
+}
+
+
+/* Dropdown-Menu */
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 12rem;
+  padding: 0.5rem;
+  font-size: 0.9375rem;
+  color: #fdfdda;
+  text-align: left;
+  list-style: none;
+  background-color: #fa6400 !important;
+  background-clip: padding-box;
+  border: 1px solid #fa6400;
+  border-radius: 0.25rem;
+}
+
+/* PreLoader*/
+#preloader {
+  display: flex;
+  background-color: #1e1e1e;
+  z-index: 999;
+}
+/* Hide preloader on IE10+ */
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  #preloader {
+    display: none;
+  }
+}
+
+/* ModalFix */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999 !important;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0E0E0E;
+}
